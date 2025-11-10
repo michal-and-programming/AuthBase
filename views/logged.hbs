@@ -1,0 +1,9 @@
+<section class="index-page">
+  <div>
+    <img class="avatar" src="{{user.photo}}" alt="image"/>
+  </div>
+  <p>HELLO {{user.userName}}</p>
+  <form action="/user/logout" method="POST">
+    <button type="submit">Log out</button>
+  </form>
+</section>
